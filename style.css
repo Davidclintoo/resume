@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+    
+}
+
+    
+html{
+    line-height:1.5rem ;
+    color:grey;
+}
+
+body{
+    padding: 2rem 2.5rem;
+    color:grey ;
+}
+
+
+
+#img{
+    height:300px ;
+    width: 280px;
+    border-radius:50% ;
+}
+
+#profile{
+    text-align: center;
+}
+section h2{
+    text-transform: uppercase;
+    border-top: 1px solid #888;
+    border-bottom:1px solid #888 ;
+    padding:1rem 0 ;
+    margin-bottom: 2rem ;
+    font-family: Arial,  sans-serif;
+    color: azure;
+}
+p{
+  line-height:1.5rem;
+  color: grey;
+   
+  
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    color:grey ;
+}
+
+#contact ul{
+    margin-top:2rem ;
+    text-decoration:none ;
+    list-style: none;
+} 
+#contact li{
+    text-decoration: none;
+    color: grey;
+}
+#fd{
+    color: azure;
+    text-transform: uppercase;
+}    
+
+#objectives{
+    margin-top:4rem ;
+}
+#main{
+    padding:1.5rem ;
+    color:#222 ;
+    line-height:1.5rem ;
+    background-color: rgb(0, 17, 255);
+    
+
+}
+
+h3{
+    color:salmon ;
+    
+}
+
+.skill > ul {
+display: grid;
+grid-template-columns:1fr 1fr ;
+margin-top:0.5rem ;
+text-decoration: none;
+}
+
+#home{
+    width:20px ;
+    height:20px ;
+}
+    
+.skill  ul li  {text-decoration: none;
+    list-style:none ;
+    color:grey ;
+        
+}
+.container{
+    border-radius:10px ;
+    background-color:cyan;
+    padding:3rem ;
+    display: grid;
+    margin-top:0.5rem ;
+    grid-template-columns:50% 1fr ;
+    display: grid;
+    grid-gap:2rem ;
+    margin: auto;
+
+    
+    
+}
+
+
+
+@media only screen and (max-width:540px){
+    .container{
+        display: block;
+    } 
+    #img{
+        height:200px ;
+        width: 200px;
+        border-radius:50% ;
+    }
+}
